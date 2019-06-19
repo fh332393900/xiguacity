@@ -1,8 +1,7 @@
 # xiguacity
 ### 题目内容：
 ***
-> 代码请提交到 github，并将 github 链接发回到sunhongbo@xigua.city 实现下拉框组件，并给出一个可展示效果的页面，主要用原生JS实现，可以用JQuery。
-***
+代码请提交到 github，并将 github 链接发回到sunhongbo@xigua.city 实现下拉框组件，并给出一个可展示效果的页面，主要用原生JS实现，可以用JQuery。
 
 > 基本要求：
 1. 基本功能同select元素，可以下拉选择
