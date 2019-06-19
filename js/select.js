@@ -6,7 +6,7 @@
 			var template = {
 				name:Random.name()
 			}
-			data.push(template)
+			data.push(template);
 		}
 		//生成数据
 		Mock.mock('http://api.cn', 'get',data);
@@ -25,7 +25,7 @@
 				});
 			},
 			error:function (err) {
-				console.log(err)
+				console.log(err);
 			}
 		});
 	}

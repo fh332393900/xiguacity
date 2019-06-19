@@ -12,7 +12,7 @@
 		if ($(".draw-content").css("display") == "none") {
 			$(".arrow").toggleClass('active');
 		}
-	});
+	})
 	$('.arrow').on('click',function(){
 		flag = !flag;
 		if (flag) {
@@ -23,6 +23,6 @@
 			$(".draw-content").css("display","none");
 		}
     $(this).toggleClass('active');
-	});
+	})
 })(jQuery)
 

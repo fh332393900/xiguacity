@@ -25,8 +25,7 @@ function KMP(sourceStr, searchStr) {
 	next = getNext(searchStr);
 	//i为源字符串的指针，j为目标字符串的指针
 	var i = 0,
-		j = 0;
-
+			j = 0;
 	while(i < sourceLen && j < searchLen) {
 		if(sourceStr[i] === searchStr[j]) {
 			++i;
